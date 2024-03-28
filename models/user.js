@@ -1,5 +1,5 @@
 import mongoose from "mongoose";
-import bcryt, { hash } from 'bcryptjs'
+import bcryt from 'bcryptjs'
 
 const {Schema} = mongoose
 const userSchema = new Schema({
